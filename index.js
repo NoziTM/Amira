@@ -6,14 +6,14 @@ const client = new Discord.Client(); //surtout pas t
 
 const ClientID = "631001858118516736"
 
-const token = ("Njc5Mjg0ODY5OTgwODgwODk2.XkvHpQ.uf1wQE5O7NLOhN_Upms3bgV7rhs")
+const token = (porcess.env.TOKEN)
 
 const prefix = "**" // Choix de votre préfix entre les ""   
 
 
 
 const newLocal = process.env.TOKEN1;
-client.login ("Njc5Mjg0ODY5OTgwODgwODk2.XkvHpQ.uf1wQE5O7NLOhN_Upms3bgV7rhs");
+client.login (token);
 
 client.on('message', function (message) {
 
