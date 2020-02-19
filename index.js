@@ -1,7 +1,6 @@
 const Discord = require("discord.js"); //surtout pas toucher
 
-const fs = require('fs');
-const warns = JSON.parse(fs.readFileSync('./warns.json'))
+
 const client = new Discord.Client(); //surtout pas t
 
 const ClientID = "631001858118516736"
