@@ -11,8 +11,6 @@ const token = (porcess.env.TOKEN)
 const prefix = "**" // Choix de votre préfix entre les ""   
 
 
-
-const newLocal = process.env.TOKEN1;
 client.login (token);
 
 client.on('message', function (message) {
